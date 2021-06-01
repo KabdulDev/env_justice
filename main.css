@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(0, 126, 38);
+    background-color: rgb(255, 255, 255);
 
     margin: 0;
 }
@@ -42,7 +42,9 @@ body
 
 .content
 {
-    margin: 2rem 10%;
+    display: flex;
+    margin: 0 10%;
+    background-color: rgb(0, 126, 38);
 }
 
 .content h1
@@ -64,13 +66,14 @@ body
 
 .donate-left
 {
-    float: left;
+    
     width: 50%;
+    align-items: center;
 }
 
 .donate-right
 {
-    float: right;
+    
     width: 50%;
 }
 
@@ -91,7 +94,17 @@ body
     width: 100%;
 }
 
+.donate-left img
+{
+    width: 100%;
+}
+
 .donate-right .inside .buttons
 {
     margin: 2rem auto;
+}
+
+.donation
+{
+    margin-top: 2rem;
 }
