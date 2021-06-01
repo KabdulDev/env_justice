@@ -6,6 +6,7 @@ body
 
 .nav-bar
 {
+    font-size: 1.25rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,7 +19,12 @@ body
     float: right;
 }
 
-.nav-bar li a
+.header
+{
+    float: left;
+}
+
+.nav-bar a
 {
     text-decoration: none;
     color: white;
@@ -46,7 +52,12 @@ body
 
 .content p
 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+}
+
+.content li
+{
+    font-size: 1.25rem;
 }
 
 
@@ -62,13 +73,13 @@ body
     width: 50%;
 }
 
-.donate button
+.donate-right button
 {
     width: 5rem;
     height: 1.5rem;
 }
 
-.donate .inside
+.donate-right .inside
 {
     margin: 1rem;
     text-align: center;
@@ -79,7 +90,7 @@ body
     width: 100%;
 }
 
-.donate .inside .buttons
+.donate-right .inside .buttons
 {
     margin: 2rem auto;
 }
