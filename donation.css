@@ -1,3 +1,8 @@
+body
+{
+    background-color: rgb(140, 240, 140);
+}
+
 .nav-bar
 {
     list-style-type: none;
@@ -9,4 +14,15 @@
 {
     display: inline;
     /* float: left; */
+}
+
+.content
+{
+    margin-left: 5%;
+    width: 45%;
+}
+
+.content h1
+{
+    color:rgb(0, 70, 0)
 }
