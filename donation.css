@@ -35,6 +35,7 @@ body
 
 .content
 {
+    float: left;
     margin-left: 5%;
     width: 45%;
 
@@ -49,4 +50,23 @@ body
 .content p
 {
     font-size: 1.4rem;
+}
+
+.donate
+{
+    
+    width: 45%;
+    margin-right: 5%;
+    display: inline-block;
+}
+
+.donate button
+{
+    width: 5rem;
+    height: 1.5rem;
+}
+
+.donate .inside
+{
+    margin: 1rem;
 }
