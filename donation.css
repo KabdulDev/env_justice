@@ -36,8 +36,8 @@ body
 .content
 {
     float: left;
-    margin-left: 5%;
-    width: 45%;
+    margin-left: 2%;
+    width: 48%;
 
 }
 
@@ -54,9 +54,8 @@ body
 
 .donate
 {
-    
-    width: 45%;
-    margin-right: 5%;
+    width: 48%;
+    margin-right: 2%;
     display: inline-block;
 }
 
@@ -69,4 +68,15 @@ body
 .donate .inside
 {
     margin: 1rem;
+    text-align: center;
+}
+
+.donate .inside img
+{
+    width: 90%;
+}
+
+.donate .inside .buttons
+{
+    margin: 2rem auto;
 }
