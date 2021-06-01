@@ -37,9 +37,16 @@ body
 {
     margin-left: 5%;
     width: 45%;
+
 }
 
 .content h1
 {
-    color:rgb(0, 70, 0)
+    color:rgb(0, 92, 0);
+    font-size: 2.5rem;
+}
+
+.content p
+{
+    font-size: 1.4rem;
 }
