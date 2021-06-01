@@ -15,7 +15,7 @@ body
 
 .nav-bar li
 {
-    float: left;
+    float: right;
 }
 
 .nav-bar li a
@@ -35,10 +35,7 @@ body
 
 .content
 {
-    float: left;
-    margin-left: 2%;
-    width: 48%;
-
+    margin: 2rem 10%;
 }
 
 .content h1
@@ -52,11 +49,17 @@ body
     font-size: 1.4rem;
 }
 
-.donate
+
+.donate-left
 {
-    width: 48%;
-    margin-right: 2%;
-    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.donate-right
+{
+    float: right;
+    width: 50%;
 }
 
 .donate button
@@ -71,9 +74,9 @@ body
     text-align: center;
 }
 
-.donate .inside img
+.donate-right img
 {
-    width: 90%;
+    width: 100%;
 }
 
 .donate .inside .buttons
