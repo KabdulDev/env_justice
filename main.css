@@ -1,0 +1,73 @@
+body
+{
+    background-color: rgb(140, 240, 140);
+    margin: 0;
+}
+
+.nav-bar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10, 10, 10);
+}
+
+.nav-bar li
+{
+    float: left;
+}
+
+.nav-bar li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav-bar li a:hover
+{
+    background-color: rgb(50, 50, 50);
+    transition: 250ms;
+}
+
+.content
+{
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+
+}
+
+.content h1
+{
+    color:rgb(0, 92, 0);
+    font-size: 2.5rem;
+}
+
+.content p
+{
+    color:rgb(0, 92, 0);
+    font-size: 1.4rem;
+}
+
+.donate
+{
+    
+    width: 45%;
+    margin-right: 5%;
+    display: inline-block;
+}
+
+.donate button
+{
+    width: 5rem;
+    height: 1.5rem;
+}
+
+.donate .inside
+{
+    margin: 1rem;
+}
