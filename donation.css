@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(140, 240, 140);
+    background-color: rgb(0, 126, 38);
     margin: 0;
 }
 
@@ -10,7 +10,7 @@ body
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(0, 68, 21);
 }
 
 .nav-bar li
@@ -24,7 +24,7 @@ body
     color: white;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 24px;
 }
 
 .nav-bar li a:hover
@@ -43,7 +43,7 @@ body
 
 .content h1
 {
-    color:rgb(0, 92, 0);
+    color:white;
     font-size: 2.5rem;
 }
 
