@@ -108,3 +108,24 @@ body
 {
     margin-top: 2rem;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered h1{
+      font-size: 4rem;
+}
+
+.centered p{
+      font-size: 2.5rem;
+}
